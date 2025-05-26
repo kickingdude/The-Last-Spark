@@ -5,8 +5,8 @@ public class PlayerMovement : MonoBehaviour
 {
     // initial movement variables; speed adjusts player speed, then jumping power adjusts height
     private float horizontal;
-    private float speed = 8f;
-    private float jumpingPower = 16f;
+    [SerializeField] private float speed = 8f;
+    [SerializeField] private float jumpingPower = 16f;
     private bool isFacingRight = true;
 
     [SerializeField] private Rigidbody2D rb;
